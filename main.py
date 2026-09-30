@@ -5,7 +5,7 @@ app = FastAPI()
 
 @app.get("/")
 def root():
-    return {"message": "Hello from Docker - Testing git Actions !!! Git Action is sucessful now!", "container": socket.gethostname()}
+    return {"message": "Hello from Docker - Testing git Actions !!! Git Action is successful now!", "container": socket.gethostname()}
 
 @app.get("/health")
 def health():
